@@ -1,5 +1,6 @@
 // src/pages/Home.jsx
 "use client";
+import Image from 'next/image';
 import React from 'react';
 import { FaTooth, FaUserShield, FaSmile, FaChild, FaTools } from 'react-icons/fa';
 import { GiToothbrush } from "react-icons/gi";
@@ -62,12 +63,15 @@ const Home = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-10 sm:space-y-0 sm:space-x-8">
             {/* Dentist Image */}
-            <div className="w-full h-auto sm:w-1/3">
-              <img
-                src="/testimonials/tetimonial_5.jpeg"
-                alt="Dr. Jesse Jackson"
-                className="w-full h-auto rounded-full shadow-lg"
-              />
+            <div className="w-full sm:w-1/3 flex justify-center">
+              <div className="relative w-96 h-95 sm:w-full sm:h-96">
+                <Image
+                  src="/testimonials/tetimonial_5.jpeg"
+                  alt="Dr. Jesse Jackson"
+                  fill
+                  className="object-cover rounded-full shadow-lg"
+                />
+              </div>
             </div>
 
             {/* Dentist Info */}
@@ -199,11 +203,14 @@ const Home = () => {
               }
             ].map((testimonial, index) => (
               <div key={index} className="bg-white rounded-bl-3xl rounded-tr-3xl p-8 shadow-2xl hover:shadow-blue-200 transition duration-300 text-left flex flex-col items-center">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-24 h-24 rounded-full mb-6 object-cover border-4 border-blue-100"
-                />
+                <div className="w-24 h-24 relative mb-6">
+                  <Image
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    fill
+                    className="rounded-full object-cover border-4 border-blue-100"
+                  />
+                </div>
                 <p className="text-gray-700 text-lg italic mb-4 text-center">“{testimonial.feedback}”</p>
                 <p className="text-blue-800 font-bold text-md text-center">– {testimonial.name}</p>
               </div>
@@ -217,10 +224,10 @@ const Home = () => {
       {/* <section className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-blue-800 text-center mb-10">Smile Gallery</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-          <img src="/images/gallery1.jpg" alt="Smile 1" className="rounded-xl shadow" />
-          <img src="/images/gallery2.jpg" alt="Smile 2" className="rounded-xl shadow" />
-          <img src="/images/gallery3.jpg" alt="Smile 3" className="rounded-xl shadow" />
-          <img src="/images/gallery4.jpg" alt="Smile 4" className="rounded-xl shadow" />
+          <Image src="/images/gallery1.jpg" alt="Smile 1" className="rounded-xl shadow" />
+          <Image src="/images/gallery2.jpg" alt="Smile 2" className="rounded-xl shadow" />
+          <Image src="/images/gallery3.jpg" alt="Smile 3" className="rounded-xl shadow" />
+          <Image src="/images/gallery4.jpg" alt="Smile 4" className="rounded-xl shadow" />
         </div>
         <div className="text-center mt-6">
           <a href="/gallery" className="text-blue-600 font-medium hover:underline">View Full Gallery →</a>
