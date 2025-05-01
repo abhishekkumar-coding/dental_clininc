@@ -83,7 +83,7 @@ const Home = () => {
                 OM DENTAL CLINIC Top-Rated Liberty Dentists. We are a compassionate team, committed to providing the best care.
               </p>
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
-                Dr. Jesse Jackson, Dr. Shannon Rizzi, and Dr. Andrew Rund
+                Dr. Umesh Chandra
               </h3>
               <p className="text-lg text-gray-700 mb-6">
                 Our dentists are highly skilled and supported by a compassionate clinical team. We always strive to find the best solutions for our patients, making sure to prioritize your comfort and health every step of the way.
