@@ -13,7 +13,7 @@ const ContactPage = () => {
         <div className="relative z-10 max-w-4xl">
           <h1 className="text-4xl sm:text-5xl font-bold text-white">Contact Us</h1>
           <p className="mt-4 text-lg sm:text-xl text-white max-w-xl">
-            We’re here to help you with all your dental needs. Feel free to reach out or visit our clinic!
+            We're here to help you with all your dental needs. Feel free to reach out or visit our clinic!
           </p>
           <div className="w-24 h-1 bg-white mt-6"></div>
         </div>
