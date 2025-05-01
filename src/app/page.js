@@ -256,7 +256,7 @@ const Home = () => {
             </a>
           </div>
 
-          <p className="mt-8 text-sm text-blue-200">We're here for you — wherever you are.</p>
+          <p className="mt-8 text-sm text-blue-200">We&rsquo;re here for you — wherever you are.</p>
         </div>
       </section>
 

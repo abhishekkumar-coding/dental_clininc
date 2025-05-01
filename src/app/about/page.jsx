@@ -56,12 +56,12 @@ const AboutSection = () => {
                         <h2 className="text-3xl sm:text-5xl font-bold text-blue-400 mb-6">Our <span className="sm:text-7xl text-blue-900">Story</span></h2>
                         <div className="space-y-4 text-gray-700 text-xl leading-relaxed">
                             <p>
-                                At OM Dental Clinic, we're passionate about helping you discover the confidence and joy of a healthy, radiant smile.
+                                At OM Dental Clinic, we&rsquo;re passionate about helping you discover the confidence and joy of a healthy, radiant smile.
                             </p>
                             <p>
                                 Founded with a vision to transform the traditional dental experience, our clinic was built on the values of compassion, innovation, and personalized care.
                                 We believe that visiting the dentist should feel reassuring and empowering — not stressful.
-                                That's why we've created a welcoming environment where patients of all ages feel at ease.
+                                That&rsquo;s why we&rsquo;ve created a welcoming environment where patients of all ages feel at ease.
                             </p>
                             <p>
                                 With advanced technology, a dedicated team, and a gentle approach to every treatment, OM Dental Clinic delivers exceptional dental care — and just a little extra to make you smile.
