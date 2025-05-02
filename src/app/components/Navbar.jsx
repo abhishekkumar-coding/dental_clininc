@@ -33,7 +33,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
                 {/* Logo / Clinic Name */}
                 <div className="text-blue-700 font-bold text-xl sm:text-2xl cursor-pointer">
-                    <Link href={"/"}>OM DENTAL CLINIC</Link>
+                    <Link href={"/"}>DENTAL CLINIC</Link>
 
                 </div>
 

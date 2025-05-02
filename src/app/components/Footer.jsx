@@ -9,7 +9,7 @@ const Footer = () => {
 
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold text-blue-900 mb-4">OM DENTAL CLINIC</h2>
+          <h2 className="text-2xl font-bold text-blue-900 mb-4">DENTAL CLINIC</h2>
           <p className="text-sm leading-relaxed">
             Advanced dental care with compassion and precision — because your smile deserves the best.
           </p>

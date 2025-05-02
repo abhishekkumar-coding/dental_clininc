@@ -56,7 +56,7 @@ const AboutSection = () => {
                         <h2 className="text-3xl sm:text-5xl font-bold text-blue-400 mb-6">Our <span className="sm:text-7xl text-blue-900">Story</span></h2>
                         <div className="space-y-4 text-gray-700 text-xl leading-relaxed">
                             <p>
-                                At OM Dental Clinic, we&rsquo;re passionate about helping you discover the confidence and joy of a healthy, radiant smile.
+                                At DENTAL CLINIC, we&rsquo;re passionate about helping you discover the confidence and joy of a healthy, radiant smile.
                             </p>
                             <p>
                                 Founded with a vision to transform the traditional dental experience, our clinic was built on the values of compassion, innovation, and personalized care.
@@ -64,7 +64,7 @@ const AboutSection = () => {
                                 That&rsquo;s why we&rsquo;ve created a welcoming environment where patients of all ages feel at ease.
                             </p>
                             <p>
-                                With advanced technology, a dedicated team, and a gentle approach to every treatment, OM Dental Clinic delivers exceptional dental care — and just a little extra to make you smile.
+                                With advanced technology, a dedicated team, and a gentle approach to every treatment, DENTAL CLINIC delivers exceptional dental care — and just a little extra to make you smile.
                             </p>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ const AboutSection = () => {
                             width={400}
                             height={500}
                             className="w-full h-auto object-cover rounded-xl shadow-lg"
-                            alt="Doctor at OM Dental Clinic"
+                            alt="Doctor at DENTAL CLINIC"
                         />
                     </div>
                 </div>
@@ -112,7 +112,7 @@ const AboutSection = () => {
             <div className="bg-blue-900 w-full h-[70vh] bg-cover bg-center bg-no-repeat flex items-center justify-center text-white py-16" style={{ backgroundImage: "url('/clinic_1.jpeg')" }}>
                 <div className="max-w-7xl mx-auto px-4 text-center bg-black/30 p-14 backdrop-blur-sm rounded-lg">
                     <h2 className="text-3xl sm:text-5xl font-bold mb-6">Ready to Transform Your Smile?</h2>
-                    <p className="text-lg mb-8">Experience the difference at OM Dental Clinic.</p>
+                    <p className="text-lg mb-8">Experience the difference at DENTAL CLINIC.</p>
                     <Link
                         href="/appointment"
                         className="bg-[#17BFE3] text-white font-semibold px-8 py-4 rounded-full shadow-lg hover:bg-blue-800 transition duration-300"

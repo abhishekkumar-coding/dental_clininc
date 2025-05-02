@@ -25,7 +25,7 @@ const Home = () => {
       >
         <div className="max-w-2xl text-white">
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-blue-900">
-            OM DENTAL CLINIC
+            DENTAL CLINIC
           </h1>
           <p className="text-base sm:text-xl lg:text-2xl font-semibold text-blue-600 mb-8">
             Providing Exceptional Dental Care with Compassion in Denver Tech Center
@@ -80,7 +80,7 @@ const Home = () => {
                 Meet Our Experienced Dentists
               </h2>
               <p className="text-lg sm:text-xl font-light mb-8">
-                OM DENTAL CLINIC Top-Rated Liberty Dentists. We are a compassionate team, committed to providing the best care.
+                DENTAL CLINIC Top-Rated Liberty Dentists. We are a compassionate team, committed to providing the best care.
               </p>
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
                 Dr. Umesh Chandra
@@ -189,7 +189,7 @@ const Home = () => {
               {
                 name: "Harsh Sharma",
                 image: "/testimonials/tetimonial_3.jpeg",
-                feedback: "From the reception to the dental chair, every experience at OM Dental Clinic is top-notch. Highly recommend for all your dental needs!"
+                feedback: "From the reception to the dental chair, every experience at DENTAL CLINIC is top-notch. Highly recommend for all your dental needs!"
               },
               {
                 name: "Sarthak Joshi",
